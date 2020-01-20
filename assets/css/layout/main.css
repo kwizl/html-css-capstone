@@ -1,0 +1,74 @@
+.main-container {
+  background-color: grey;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 30px 10px 30px;
+  padding-top: 10px;
+}
+
+.features,
+.user-details {
+  width: 23.5%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.features > :first-child {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.fl {
+  padding-left: 10px;
+}
+
+.features-list li {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+}
+
+.features-list li > :first-child {
+  text-align: right;
+  width: 30px;
+}
+
+.features div ul li {
+  display: flex;
+  align-items: center;
+}
+
+.photos {
+  width: 50%;
+  height: inherit;
+  background-color: blue;
+}
+
+.recommended {
+  position: relative;
+  top: -5px;
+  margin-right: 10px;
+}
+
+.recommended-coder {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+#gift {
+  margin: 5px 0 0 35px;
+}
+
+.btn-feature-premium {
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(84, 3, 151);
+  color: white;
+}
