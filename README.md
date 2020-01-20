@@ -2,7 +2,7 @@
 
 # HTML and CSS Capstone Microverse Project
 
-In this project, we'll be building from scratch a copy of this "[Newsweek clone](https://www.newsweek.com/)". The main goal of this project is to learn how to use bootstrap framework.
+The project is based on social network to find acquittances. Its a platform on which programmers share the technologies that they use in their work and the projects they are engaged in.
 
 # Code Zone
 Design idea by Vlad Ermakov on Dribbble
