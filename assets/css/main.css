@@ -1,6 +1,7 @@
+@import "base/base.css";
+@import "base/typography.css";
 @import "layout/header.css";
 @import "layout/footer.css";
-
-@import "pages/chat-page.css"; 
-@import "pages/chat-detail-page.css"; 
+@import "pages/chat-page.css";
+@import "pages/chat-detail-page.css";
 @import "pages/person-detail-page.css";
