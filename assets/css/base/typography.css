@@ -46,7 +46,7 @@ header {
   border-bottom: 1px solid rgb(173, 173, 173);
 }
 
-.logo-site > p {
+.logo-site > h3 {
   font-weight: 700;
   font-size: 25px;
   color: grey;
