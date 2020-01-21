@@ -113,3 +113,57 @@ header {
   font-size: 60px;
   color: rgb(84, 3, 151);
 }
+
+.times {
+  font-size: 8px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(255, 102, 0);
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  margin: 10px 0 0 -20px;
+  padding: 2px 0 0 5.5px;
+}
+
+.feature-img-1,
+.feature-img-3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(202, 202, 202);
+  background-color: white;
+}
+
+.feature-cancel {
+  background-color: rgb(255, 102, 0);
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.feature-like {
+  background-color: rgb(84, 3, 151);
+  color: white;
+}
+
+.fa-heart,
+.fa-mouse-pointer {
+  color: white;
+  font-size: 20px;
+}
+
+.img-indicator > :first-child,
+.img-indicator > :nth-child(2),
+.img-indicator > :last-child {
+  background-color: rgb(172, 172, 172);
+}
+
+.active-div {
+  background-color: rgb(255, 102, 0);
+}
+
+.distance {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
