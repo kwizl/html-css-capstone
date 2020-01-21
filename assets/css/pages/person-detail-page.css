@@ -1,0 +1,68 @@
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .user-feature-photo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 190px;
+  }
+
+  .user-details-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 0 15px;
+  }
+
+  .main-user-details {
+    padding-top: 30px;
+  }
+
+  .user-detail-feature-img-1,
+  .user-detail-feature-img-3 {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(165, 165, 165);
+  }
+
+  .user-detail-feature-img-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .user-detail-feature-cancel {
+    margin-left: 15px;
+    padding: 5px 0 0 15px;
+  }
+
+  .user-detail-feature-like {
+    margin-left: 15px;
+    padding: 10px 0 0 13px;
+  }
+
+  .user-detail-feature-cancel,
+  .user-detail-feature-like {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(126, 126, 126);
+  }
+
+  .user-detail-img-indicator {
+    text-align: right;
+    flex-grow: 0.1;
+  }
+
+  .user-detail-img-indicator > :first-child {
+    flex-grow: 1;
+  }
+
+  .user-detail-img-indicator > div {
+    list-style: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+}

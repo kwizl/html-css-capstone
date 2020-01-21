@@ -46,12 +46,6 @@ header {
   border-bottom: 1px solid rgb(173, 173, 173);
 }
 
-.logo-site > h3 {
-  font-weight: 700;
-  font-size: 25px;
-  color: grey;
-}
-
 .list-item--center {
   text-align: center;
 }
@@ -79,6 +73,11 @@ header {
 }
 
 .status {
+  color: rgb(173, 173, 173);
+}
+
+.status-mobile {
+  font-size: 12px;
   color: rgb(173, 173, 173);
 }
 
@@ -119,11 +118,6 @@ header {
   font-weight: 700;
   color: white;
   background-color: rgb(255, 102, 0);
-  border-radius: 50%;
-  height: 16px;
-  width: 16px;
-  margin: 10px 0 0 -20px;
-  padding: 2px 0 0 5.5px;
 }
 
 .feature-img-1,
@@ -147,7 +141,8 @@ header {
 }
 
 .fa-heart,
-.fa-mouse-pointer {
+.fa-mouse-pointer,
+.fa-arrow-left {
   color: white;
   font-size: 20px;
 }
@@ -166,4 +161,82 @@ header {
   color: white;
   font-weight: 700;
   font-size: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .logo-site > h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: grey;
+  }
+
+  .img-mobile-indicator > :first-child,
+  .img-mobile-indicator > :nth-child(2),
+  .img-mobile-indicator > :last-child,
+  .user-detail-img-indicator > :first-child,
+  .user-detail-img-indicator > :nth-child(2),
+  .user-detail-img-indicator > :last-child {
+    background-color: rgb(172, 172, 172);
+  }
+
+  .user-detail-feature-img-1,
+  .user-detail-feature-img-3,
+  .feature-mobile-img-1,
+  .feature-mobile-img-3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(202, 202, 202);
+    background-color: white;
+  }
+
+  .user-detail-active-div {
+    background-color: rgb(255, 102, 0);
+  }
+
+  .user-detail-feature-cancel {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  #user-like {
+    font-size: 20px;
+  }
+
+  .feature-mobile-cancel {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #cog-mobile-id,
+  #bell-mobile-id {
+    font-size: 20px;
+  }
+
+  .fa-heart {
+    color: white;
+    font-size: 14px;
+  }
+
+  .username-mobile-name > p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .user-detail-feature-like,
+  .feature-mobile-like {
+    background-color: rgb(84, 3, 151);
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .logo-site > h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: grey;
+  }
 }
