@@ -1,10 +1,10 @@
 .main-container {
-  background-color: grey;
+  background-color: rgb(240, 240, 240);
   height: 85%;
   display: flex;
   justify-content: space-evenly;
   margin: 15px 30px 10px 30px;
-  padding-top: 10px;
+  padding: 10px 0 10px 0;
 }
 
 .features,
@@ -22,6 +22,7 @@
 .user-details > :first-child {
   background-color: white;
   border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
 .fl {
@@ -33,6 +34,27 @@
   margin-top: 20px;
   display: flex;
   padding-bottom: 10px;
+}
+
+.list-notify {
+  display: flex;
+}
+
+.list-notify > :first-child {
+  width: calc(70% + 0.05vw);
+  text-align: right;
+}
+
+#span-live-id {
+  margin-left: calc(300% + 0.05vw);
+}
+
+#span-msg-id {
+  margin-left: calc(370% + 0.05vw);
+}
+
+#span-gift-id {
+  margin-left: calc(460% + 0.05vw);
 }
 
 .filter > :last-child .fa-sliders {
@@ -82,12 +104,17 @@
 }
 
 #gift {
-  margin: 5px 0 0 35px;
+  margin: 5px 10px 0 30px;
+}
+
+.no-live {
+  padding: 3px 8px 3px 8px;
+  border-radius: 35%;
 }
 
 .no-msg,
 .no-gifts {
-  padding: 5px 7px 5px 7px;
+  padding: 3px 8px 3px 8px;
   border-radius: 5px;
   text-align: end;
 }
@@ -99,12 +126,14 @@
   background-color: white;
   padding: 15px 10px 15px 10px;
   border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
 .user-main-details {
   margin-top: 10px;
   background-color: white;
   border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
 .user-main-details-li {
