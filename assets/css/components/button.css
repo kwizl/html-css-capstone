@@ -1,0 +1,26 @@
+.btn-feature-premium {
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(84, 3, 151);
+  color: white;
+}
+
+#btn-purchase {
+  width: 80%;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+}
+
+.btn-view-page {
+  width: 90%;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  color: rgb(150, 150, 150);
+  background-color: rgb(230, 230, 230);
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}

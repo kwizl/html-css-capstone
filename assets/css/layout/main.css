@@ -2,22 +2,24 @@
   background-color: grey;
   height: 85%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 15px 30px 10px 30px;
   padding-top: 10px;
 }
 
 .features,
 .user-details {
-  width: 23.5%;
+  width: 25%;
   height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 20px;
+  margin-right: 20px;
 }
 
-.features > :first-child {
+.features > :first-child,
+.user-details > :first-child {
   background-color: white;
   border-radius: 5px;
 }
@@ -30,11 +32,24 @@
   list-style: none;
   margin-top: 20px;
   display: flex;
+  padding-bottom: 10px;
+}
+
+.filter > :last-child .fa-sliders {
+  text-align: right;
 }
 
 .features-list li > :first-child {
   text-align: right;
   width: 30px;
+}
+
+.communicate {
+  display: flex;
+}
+
+.communicate > div {
+  margin-left: 20px;
 }
 
 .features div ul li {
@@ -55,8 +70,14 @@
 }
 
 .recommended-coder {
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+}
+
+.crown-coder {
+  height: 45px;
+  width: 45px;
   border-radius: 5px;
 }
 
@@ -64,11 +85,48 @@
   margin: 5px 0 0 35px;
 }
 
-.btn-feature-premium {
-  border: none;
+.no-msg,
+.no-gifts {
+  padding: 5px 7px 5px 7px;
   border-radius: 5px;
-  margin-left: 20px;
-  padding: 5px 20px 5px 20px;
-  background-color: rgb(84, 3, 151);
-  color: white;
+  text-align: end;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: white;
+  padding: 15px 10px 15px 10px;
+  border-radius: 5px;
+}
+
+.user-main-details {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.user-main-details-li {
+  list-style: none;
+}
+
+.user-line {
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.fa-gift {
+  margin-top: -5px;
+}
+
+.name,
+.user-main-details-li,
+.user-interests,
+.user-languages,
+.user-btn {
+  padding: 6px 10px 6px 10px;
+}
+
+.user-btn {
+  text-align: center;
 }

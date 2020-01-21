@@ -36,6 +36,11 @@ header {
   background-color: rgb(173, 173, 173);
 }
 
+.fa-sliders {
+  font-size: 18px;
+  color: rgb(84, 3, 151);
+}
+
 .location-choice {
   color: black;
   border-bottom: 1px solid rgb(173, 173, 173);
@@ -73,5 +78,32 @@ header {
 }
 
 .status {
-  color: rgb(173, 173, 173);;
+  color: rgb(173, 173, 173);
+}
+
+.no-msg,
+.no-gifts {
+  background-color: rgb(255, 102, 0);
+  color: white;
+}
+
+.filter > div {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.user-spec {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#cog-id {
+  background-color: rgb(84, 3, 151);
+  color: white;
+  border-radius: 5px;
+}
+
+.fa-gift {
+  font-size: 60px;
+  color: rgb(84, 3, 151);
 }
