@@ -201,7 +201,11 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
-
+  .features,
+  .photos,
+  .user-details {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1025px) {

@@ -32,6 +32,35 @@
   .header-container {
     display: none;
   }
+
+  .header-mobile-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 15px 0 15px;
+  }
+
+  .header-mobile__left {
+    text-align: left;
+    padding-left: 10%;
+  }
+
+  .header-mobile__right {
+    text-align: right;
+    padding-right: 10%;
+  }
+
+  .header-mobile__left li,
+  .header-mobile__right li {
+    list-style: none;
+  }
+
+  .header-mobile-container > :first-child,
+  .header-mobile-container > :last-child,
+  .logo-site {
+    flex-grow: 1;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -41,6 +70,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .header-mobile-container {
+    display: none;
   }
 
   .header-container > div {
