@@ -97,6 +97,11 @@
   margin-left: 20px;
 }
 
+.user-main-details-li li {
+  display: flex;
+  justify-content: space-between;
+}
+
 .features div ul li {
   display: flex;
   align-items: center;
@@ -106,6 +111,10 @@
   position: relative;
   top: -5px;
   margin-right: 10px;
+}
+
+#cog-id {
+  margin-top: 8px;
 }
 
 .recommended-coder {

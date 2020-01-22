@@ -14,6 +14,10 @@ header {
   padding: 3px;
 }
 
+#cog-id {
+  padding: 6px;
+}
+
 .fa-map-o,
 .fa-bell-o,
 .fa-list,
