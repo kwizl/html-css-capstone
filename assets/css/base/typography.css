@@ -14,10 +14,6 @@ header {
   padding: 3px;
 }
 
-#cog-id {
-  padding: 6px;
-}
-
 .arrow-link {
   text-decoration: none;
   color: rgb(160, 160, 160);
@@ -204,6 +200,10 @@ header {
 
 .active-div {
   background-color: rgb(255, 102, 0);
+}
+
+.chat-conversation {
+  background-color: rgb(241, 241, 241);
 }
 
 .distance {
