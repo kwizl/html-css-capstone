@@ -18,6 +18,18 @@ header {
   padding: 6px;
 }
 
+.arrow-link {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  font-size: 18px;
+}
+
+.arrow-link:hover {
+  text-decoration: none;
+  color: rgb(84, 3, 151);
+  font-size: 24px;
+}
+
 .details-page-link {
   text-decoration: none;
   color: rgb(160, 160, 160);
