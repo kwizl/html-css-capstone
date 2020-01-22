@@ -53,19 +53,19 @@
                 <nav>
                     <ul class="header-mobile__left">
                         <li>
-                            <i id="cog-mobile-id" class="fa fa-cog" aria-hidden="true"></i>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                         </li>
                     </ul>
                 </nav>
             </div>
             <section class="logo-site">
-                <h3>Code Zone</h3>
+                <h3>Messages</h3>
             </section>
             <div>
                 <nav>
                     <ul class="header-mobile__right">
                         <li>
-                            <i id="bell-mobile-id" class="fa fa-bell-o" aria-hidden="true"></i>
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                         </li>
                     </ul>
                 </nav>
@@ -119,8 +119,14 @@
                                     <span id="span-gift-id" class="no-gifts">14</span>
                                 </div>
                             </li>
-                            <li><i class="fa fa-line-chart" aria-hidden="true"></i> &nbsp; &nbsp; Rate of Popularity</li>
-                            <li><i class="fa fa-list" aria-hidden="true"></i> &nbsp; &nbsp; Daily Tasks</li>
+                            <li>
+                                <i class="fa fa-line-chart" aria-hidden="true"></i> 
+                                &nbsp; &nbsp; Rate of Popularity
+                            </li>
+                            <li>
+                                <i class="fa fa-list" aria-hidden="true"></i> 
+                                &nbsp; &nbsp; Daily Tasks
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -132,7 +138,7 @@
                             <li>
                                 <i class="fa fa-search" aria-hidden="true"></i>
                                 <input class="coders-search" placeholder="Search by users" type="text">
-                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                <i id="edit-pencil" class="fa fa-pencil-square-o" aria-hidden="true"></i>
                             </li>
                             <li class="coders-list">
                                 <div>
@@ -319,6 +325,118 @@
                         <input class="chat-textbox" placeholder="Your messages" type="text">
                         <i class="fa fa-arrow-up" aria-hidden="true"></i>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-mobile-container">
+            <div>
+                <nav class="chat-threads">
+                    <ul>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <a href="">
+                                    <img class="coders-mobile-img img-fluid" src="assets/img/dev1.jpeg" alt="Dev1">
+                                </a>              
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Martin Njoroge&nbsp;&nbsp;</span>
+                                <span class="fullstop">&#46;</span>
+                                <br><span class="active-mobile-tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Hope I pass this Capstone Project</span>
+                            </div>
+                        </li>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <a href="">
+                                    <img class="coders-mobile-img img-fluid" src="assets/img/dev2.jpeg" alt="Dev2">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Emmanuel Diaz&nbsp;&nbsp;</span>
+                                <br><span class="tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Tough week aheah guys. Hope I...</span>
+                            </div>
+                        </li>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <a href="">
+                                    <img class="coders-mobile-img img-fluid" src="assets/img/dev3.jpeg" alt="Dev3">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Mike Organo&nbsp;&nbsp;</span>
+                                <span class="fullstop">&#46;</span>
+                                <br><span class="active-mobile-tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Learn Continuous Integration...</span>
+                            </div>
+                        </li>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <a href="">
+                                    <img class="coders-mobile-img img-fluid" src="assets/img/dev5.jpeg" alt="Dev5">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Alvaro Masitsa&nbsp;&nbsp;</span>
+                                <br><span class="tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Use Continuous Delivery in the Azure</span>
+                            </div>
+                        </li>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <a href="">
+                                    <img class="coders-mobile-img img-fluid" src="assets/img/dev2.jpeg" alt="Dev2">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Paul Wash&nbsp;&nbsp;</span>
+                                <br><span class="tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Algorithms and Data Structures</span>
+                            </div>
+                        </li>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <img class="coders-mobile-img img-fluid" src="assets/img/dev6.jpeg" alt="Dev6">
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Johnson John&nbsp;&nbsp;</span>
+                                <span class="fullstop">&#46;</span>
+                                <br><span class="active-mobile-tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Here we go again. For the third...</span>
+                            </div>
+                        </li>
+                        <li class="coders-mobile-list">
+                            <div>
+                                <a href="">
+                                    <img class="coders-mobile-img img-fluid" src="assets/img/dev7.jpeg" alt="Dev8">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="contact-mobile-name">Mike Boris&nbsp;&nbsp;</span>
+                                <br><span class="tick">&#10004;</span>
+                                <span class="status-mobile">&nbsp;Dependency Injection in C#</span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="bottom-nav">
+                    <ul class="chat-nav">
+                        <li>
+                            <i id="star-nav" class="fa fa-star-o" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i id="list-nav" class="fa fa-list" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i id="globe-nav" class="fa fa-globe" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i id="stack-nav" class="fa fa-stack-exchange" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i id="clock-nav" class="fa fa-clock-o" aria-hidden="true"></i>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

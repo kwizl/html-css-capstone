@@ -82,7 +82,7 @@ header {
 }
 
 .status-mobile {
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(173, 173, 173);
 }
 
@@ -185,7 +185,13 @@ header {
   color: rgb(79, 1, 143);
 }
 
-.fa-pencil-square-o {
+.fa-pencil-square-o,
+.fa-bars {
+  color: black;
+  font-size: 16px;
+}
+
+#edit-pencil {
   background-color: rgb(79, 1, 143);
   color: white;
   font-size: 14px;
@@ -207,11 +213,36 @@ header {
   background-color: rgb(79, 1, 143);
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
   .logo-site > h3 {
     font-weight: 700;
     font-size: 20px;
     color: grey;
+  }
+
+  .chat-mobile-container {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .coders-mobile-list {
+    background-color: white;
+  }
+
+  .contact-mobile-name {
+    font-weight: 700;
+    color: rgb(70, 70, 70);
+  }
+
+  .fullstop {
+    color: rgb(1, 139, 1);
+  }
+
+  .tick {
+    color: rgb(148, 148, 148);
+  }
+
+  .active-mobile-tick {
+    color: rgb(79, 1, 143);
   }
 
   .img-mobile-indicator > :first-child,
@@ -258,6 +289,28 @@ header {
   #cog-mobile-id,
   #bell-mobile-id {
     font-size: 20px;
+  }
+
+  .bottom-nav {
+    background-color: white;
+  }
+
+  #globe-nav {
+    color: white;
+    background-color: rgb(84, 3, 151);
+    font-size: 300%;
+  }
+
+  #star-nav,
+  #list-nav,
+  #clock-nav {
+    font-size: 22px;
+    color: rgb(156, 156, 156);
+  }
+
+  #stack-nav {
+    font-size: 22px;
+    color: rgb(247, 68, 68);
   }
 
   .fa-heart {

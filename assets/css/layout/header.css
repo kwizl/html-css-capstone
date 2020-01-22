@@ -28,7 +28,7 @@
   padding-top: 6px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
   .header-container {
     display: none;
   }
