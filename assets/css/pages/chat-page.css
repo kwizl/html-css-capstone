@@ -91,7 +91,7 @@
   .bottom-nav {
     padding: 2px 0 2px 0;
     position: relative;
-    margin-top: -3% !important;
+    margin-top: -1% !important;
   }
 
   .chat-nav li:not(:nth-child(3)) {
