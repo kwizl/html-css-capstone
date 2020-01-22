@@ -224,6 +224,9 @@ header {
   font-size: 16px;
   background-color: rgb(79, 1, 143);
 }
+#chat-area {
+  background-color: rgb(245, 245, 245);
+}
 
 #chat-area-detail {
   background-color: white;
