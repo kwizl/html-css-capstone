@@ -27,6 +27,11 @@ header {
   color: rgb(173, 173, 173);
 }
 
+#globe-icon {
+  font-size: 17px;
+  color: rgb(84, 3, 151);
+}
+
 .fa-user {
   border-radius: 50%;
   height: 20px;
@@ -186,6 +191,22 @@ header {
   font-size: 14px;
 }
 
+.fa-phone,
+.fa-ellipsis-h {
+  font-size: 14px;
+  color: rgb(148, 148, 148);
+}
+
+.chat-textbox {
+  color: grey;
+}
+
+.fa-arrow-up {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(79, 1, 143);
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .logo-site > h3 {
     font-weight: 700;
@@ -280,5 +301,19 @@ header {
   .fa-search {
     color: rgb(194, 194, 194);
     font-size: 14px;
+  }
+
+  .chat-heading {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(83, 83, 83);
+  }
+
+  .chat-text {
+    background-color: rgb(204, 204, 204);
+  }
+
+  #chat-area {
+    background-color: rgb(235, 235, 235);
   }
 }

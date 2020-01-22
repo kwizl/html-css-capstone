@@ -3,11 +3,40 @@
   border-radius: 5px;
 }
 
+.chat-textbox {
+  width: 80%;
+  border-radius: 5px;
+  padding: 4px 8px 4px 8px;
+  border: 1px solid rgb(236, 236, 236);
+  height: 36px;
+  margin: 0 10px 0 10px;
+  background-image: url("../../img/icons8-happy.png");
+  background-position: right;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+#input-area {
+  text-align: center;
+}
+
+.fa-paperclip {
+  font-size: 20px;
+  color: rgb(212, 212, 212);
+}
+
+.fa-arrow-up {
+  padding: 9px;
+  border-radius: 5px;
+}
+
 @media only screen and (min-width: 1025px) {
   .chat-page-container {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px 0 0;
+    padding-top: 10px;
+    padding-right: 20px;
   }
 
   .chat-details {
@@ -17,13 +46,19 @@
     border-radius: 5px;
   }
 
-  .chat-coder-li li {
+  .chat-conversation li {
+    list-style: none;
+    padding: 15px 0 15px 0;
+  }
+
+  .chat-coder-li li:not(:last-child) {
     list-style: none;
     padding: 12px 0 12px 10px;
     border-bottom: 2px solid rgb(236, 236, 236);
   }
 
-  .coders-list {
+  .coders-list,
+  .contacts-tab {
     display: flex;
     justify-content: flex-start;
   }
@@ -39,6 +74,12 @@
     border-right: 1px solid rgb(236, 236, 236);
   }
 
+  .chat-details > :last-child {
+    width: 70%;
+    padding: 10px 0 10px 0;
+    border-right: 1px solid rgb(236, 236, 236);
+  }
+
   .coders-list > :nth-child(2) {
     width: 60%;
   }
@@ -51,14 +92,11 @@
     width: 20%;
   }
 
-  .contacts-tab {
-    display: flex;
-    justify-content: flex-start;
-  }
-
   .contacts-tab > div {
     width: 33%;
     text-align: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 0 !important;
   }
 
   .contacts-tab > :nth-child(2) {
@@ -66,10 +104,6 @@
     border-left: 2px solid rgb(236, 236, 236);
     border-right: 2px solid rgb(236, 236, 236);
     background-color: rgb(245, 245, 245);
-  }
-
-  .section-chat {
-    width: 68%;
   }
 
   .coders-list > div {
@@ -80,5 +114,57 @@
     border: none;
     padding: 10px 8px;
     width: 75%;
+  }
+
+  .section-chat {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(236, 236, 236);
+    padding: 13px 15px 13px 15px;
+  }
+
+  .chat-conversation {
+    padding: 25px 15px 10px 10px;
+  }
+
+  .chat-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .chat-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .chat-text-container {
+    width: 60%;
+  }
+
+  .chat-text {
+    border-radius: 5px;
+    padding: 8px 8px;
+  }
+
+  .chat-img {
+    width: 10%;
+  }
+
+  .chat-img > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -13px;
+    margin-left: 15px;
+  }
+
+  .chat-text-container-right {
+    text-align: right;
+    margin-left: 15px;
+  }
+
+  .chat-text-container-left {
+    text-align: left;
+    margin-left: 15px;
   }
 }
