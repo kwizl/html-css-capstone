@@ -18,6 +18,28 @@ header {
   padding: 6px;
 }
 
+.details-page-link {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  font-size: 12px;
+}
+
+.details-page-link:hover {
+  text-decoration: none;
+  color: rgb(84, 3, 151);
+  font-size: 14px;
+}
+
+.btn-view-page > a {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+}
+
+.btn-view-page > a:hover {
+  text-decoration: none;
+  color: rgb(84, 3, 151);
+}
+
 .fa-map-o,
 .fa-bell-o,
 .fa-list,
