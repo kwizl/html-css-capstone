@@ -1,0 +1,56 @@
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .chat-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .chat-left {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .chat-text-container {
+    width: 60%;
+  }
+
+  .chat-text {
+    border-radius: 5px;
+    padding: 8px 8px;
+  }
+
+  .chat-img {
+    width: 10%;
+  }
+
+  .chat-left > .chat-img {
+    margin-right: 20px !important;
+  }
+
+  .chat-img > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -13px;
+    margin-left: 15px;
+  }
+
+  .chat-text-container-right {
+    text-align: right;
+    margin-left: 15px;
+  }
+
+  .chat-text-container-left {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  #chat-area-detail {
+    padding-right: 7%;
+  }
+
+  #input-area-detail {
+    margin-top: -1.5% !important;
+    padding: 20px 0 20px 0;
+  }
+}

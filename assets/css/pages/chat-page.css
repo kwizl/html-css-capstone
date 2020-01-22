@@ -17,7 +17,8 @@
   background-size: 20px 20px;
 }
 
-#input-area {
+#input-area,
+#input-area-detail {
   text-align: center;
 }
 
@@ -29,6 +30,19 @@
 .fa-arrow-up {
   padding: 9px;
   border-radius: 5px;
+}
+
+.chat-conversation {
+  padding: 25px 15px 10px 10px;
+}
+
+.chat-conversation li {
+  list-style: none;
+  padding: 15px 0 15px 0;
+}
+
+.chat-text-container-left .status {
+  float: right;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 1024px) {
@@ -123,11 +137,6 @@
     border-radius: 5px;
   }
 
-  .chat-conversation li {
-    list-style: none;
-    padding: 15px 0 15px 0;
-  }
-
   .chat-coder-li li:not(:last-child) {
     list-style: none;
     padding: 12px 0 12px 10px;
@@ -183,10 +192,6 @@
     background-color: rgb(245, 245, 245);
   }
 
-  .chat-text-container-left .status {
-    float: right;
-  }
-
   .coders-list > div {
     margin-right: 10px;
   }
@@ -202,10 +207,6 @@
     justify-content: space-between;
     border-bottom: 2px solid rgb(236, 236, 236);
     padding: 13px 15px 13px 15px;
-  }
-
-  .chat-conversation {
-    padding: 25px 15px 10px 10px;
   }
 
   .chat-right {
