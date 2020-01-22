@@ -75,6 +75,15 @@
   flex-grow: 10;
 }
 
+.user-mobile-detail > :last-child {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.user-detail-link > :last-child {
+  padding-top: 5%;
+}
+
 .features-list li > :first-child {
   text-align: right;
   width: 30px;
@@ -137,11 +146,17 @@
   box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
+.user-detail-link {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 10px 10px 10px;
+  border-bottom: 2px solid rgb(224, 224, 224);
+  border-radius: 5px;
+}
+
 .user-main-details {
   margin-top: 10px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
 .user-main-details-li {
@@ -265,6 +280,13 @@
     margin-left: 10%;
     position: absolute;
     top: -50px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(226, 226, 226);
+  }
+
+  #main-bottom-nav {
+    margin-top: 25% !important;
   }
 
   .details-page-link {
@@ -273,17 +295,6 @@
 
   .details-page-link:hover {
     text-decoration: none;
-  }
-
-  .menu-nav-mobile {
-    position: absolute;
-    top: 60px;
-    text-align: center;
-  }
-
-  .menu-nav-mobile > li {
-    list-style: none;
-    display: inline-block;
   }
 
   .feature-mobile-photo {

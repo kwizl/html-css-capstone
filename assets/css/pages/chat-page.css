@@ -93,6 +93,8 @@
     display: inline-block;
     width: 20%;
     margin-top: -3% !important;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(231, 231, 231);
   }
 
   #globe-nav {

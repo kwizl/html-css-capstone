@@ -68,7 +68,8 @@ header {
   font-weight: 400;
 }
 
-.fa-heart-o {
+.fa-heart-o,
+.fa-plug {
   font-size: 15px;
   color: rgb(253, 86, 86);
 }
@@ -78,6 +79,7 @@ header {
 }
 
 .status {
+  font-size: 10px;
   color: rgb(173, 173, 173);
 }
 
@@ -174,10 +176,16 @@ header {
 }
 
 .fullstop {
+  font-size: 30px;
   color: rgb(1, 139, 1);
 }
 
 .tick {
+  color: rgb(148, 148, 148);
+}
+
+.status-link {
+  font-size: 13px;
   color: rgb(148, 148, 148);
 }
 
@@ -237,6 +245,10 @@ header {
     color: rgb(1, 139, 1);
   }
 
+  .photos-mobile {
+    background-color: rgb(245, 245, 245);
+  }
+
   .tick {
     color: rgb(148, 148, 148);
   }
@@ -273,6 +285,12 @@ header {
     color: white;
     font-size: 22px;
     font-weight: 700;
+  }
+
+  .user-mobile-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
   }
 
   #user-like {
@@ -316,6 +334,10 @@ header {
   .fa-heart {
     color: white;
     font-size: 14px;
+  }
+
+  .username-mobile-name {
+    background-color: white;
   }
 
   .username-mobile-name > p {

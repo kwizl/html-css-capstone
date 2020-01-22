@@ -7,6 +7,13 @@
     top: 190px;
   }
 
+  .user-details-container {
+    background-image: url("../../img/main-dev.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .user-details-img {
     display: flex;
     justify-content: space-between;
@@ -15,6 +22,14 @@
 
   .main-user-details {
     padding-top: 30px;
+  }
+
+  .main-user-details > :nth-child(2) {
+    margin-bottom: 5%;
+  }
+
+  .user-languages {
+    margin-top: 5%;
   }
 
   .user-detail-feature-img-1,
