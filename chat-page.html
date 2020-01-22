@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="icon" type="image/png" href="assets/img/computer-monitor.png" sizes="72x72">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Code Zone</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div>
+                <nav>
+                    <ul class="header-side__left">
+                        <li>
+                            <i class="fa fa-compass" aria-hidden="true"></i>
+                        </li>
+                        <li><span>London: </span>&nbsp;<span class="location-choice">London</span></li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="logo-site">
+                <h3>Code Zone</h3>
+            </section>
+            <div>
+                <nav>
+                    <ul class="header-side__right">
+                        <li>
+                            <i class="fa fa-list" aria-hidden="true"></i>
+                        </li>
+                        <li id="notification">
+                            <i class="fa fa-bell-o" aria-hidden="true"></i>
+                        </li>
+                        <li class="list-item--center">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-mobile-container">
+            <div>
+                <nav>
+                    <ul class="header-mobile__left">
+                        <li>
+                            <i id="cog-mobile-id" class="fa fa-cog" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="logo-site">
+                <h3>Code Zone</h3>
+            </section>
+            <div>
+                <nav>
+                    <ul class="header-mobile__right">
+                        <li>
+                            <i id="bell-mobile-id" class="fa fa-bell-o" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="chat-page-container">
+            <aside class="features">
+                <div>
+                    <ul class="features-list fl">
+                        <li>
+                            <picture class="recommended">
+                                <img class="recommended-coder img-fluid" src="assets/img/vlad.png" alt="Vlad">
+                            </picture>
+                            <p>Vlad Ermakov <br><span class="status">Status: &nbsp;</span> <span class="premium-status">Without Premium</span></p>
+                            <i id="gift" class="fa fa-cog" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp; 257
+                            <button class="btn-feature-premium">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;
+                                Get Premium
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <nav>
+                        <ul id="features-id" class="features-list">
+                            <li><i class="fa fa-map-o" aria-hidden="true"></i> &nbsp; &nbsp; Begin Encounters</li>
+                            <li><i class="fa fa-stack-exchange" aria-hidden="true"></i> &nbsp; &nbsp; People Nearby</li>
+                            <li class="list-notify">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i> &nbsp; &nbsp; Live Channels
+                                <div>
+                                    <span id="span-live-id" class="no-live">12</span>
+                                </div>
+                            </li>
+                            <li class="list-notify">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> &nbsp; &nbsp; Messages
+                                <div>
+                                    <span id="span-msg-id" class="no-msg">32</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-star-o" aria-hidden="true"></i> &nbsp; &nbsp; Featured Peoples
+                            </li>
+                            <li class="list-notify">
+                                <i class="fa fa-cog" aria-hidden="true"></i> &nbsp; &nbsp; Gifts
+                                <div>
+                                    <span id="span-gift-id" class="no-gifts">14</span>
+                                </div>
+                            </li>
+                            <li><i class="fa fa-line-chart" aria-hidden="true"></i> &nbsp; &nbsp; Rate of Popularity</li>
+                            <li><i class="fa fa-list" aria-hidden="true"></i> &nbsp; &nbsp; Daily Tasks</li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <div class="chat-details">
+                <div>
+                    <nav>
+                        <ul class="chat-coder-li">
+                            <li>
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <input class="coders-search" placeholder="Search by users" type="text">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev1.jpeg" alt="Dev1">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Claude Sinclair&nbsp;&nbsp;</span><span class="fullstop">&#46;</span>
+                                    <br><span class="tick">&#10004;</span><span class="status">&nbsp;Hello, I will be pleased to..</span>
+                                </div>
+                                <div>
+                                    <span class="status">15 min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev2.jpeg" alt="Dev2">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Chris Evans&nbsp;&nbsp;</span>
+                                    <br><span class="tick">&#10004;</span><span class="status">&nbsp;What to do with your sp..</span>
+                                </div>
+                                <div>
+                                    <span class="status">23 min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev3.jpeg" alt="Dev3">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Emmanuel Diaz&nbsp;&nbsp;</span>
+                                    <br><span class="tick">&#10004;</span><span class="status">&nbsp;Implementing docker..</span>
+                                </div>
+                                <div>
+                                    <span class="status">34 min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev4.jpeg" alt="Dev4">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Raul Rodrigez&nbsp;&nbsp;</span>
+                                    <br><span class="active-tick">&#10004;</span><span class="status">&nbsp;Deploying to cloud..</span>
+                                </div>
+                                <div>
+                                    <span class="status">37 min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev5.jpeg" alt="Dev5">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Paul Wash&nbsp;&nbsp;</span>
+                                    <br><span class="active-tick">&#10004;</span><span class="status">&nbsp;Learning kubernetes..</span>
+                                </div>
+                                <div>
+                                    <span class="status">38 min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev7.jpeg" alt="Dev1">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Chris Evans&nbsp;&nbsp;</span>
+                                    <br><span class="active-tick">&#10004;</span><span class="status">&nbsp;Advanced SQL (Views)...</span>
+                                </div>
+                                <div>
+                                    <span class="status">30min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev3.jpeg" alt="Dev8">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Chris Evans&nbsp;&nbsp;</span>
+                                    <br><span class="tick">&#10004;</span><span class="status">&nbsp;Big O Notation..</span>
+                                </div>
+                                <div>
+                                    <span class="status">446 min</span>
+                                </div>
+                            </li>
+                            <li class="coders-list">
+                                <div>
+                                    <img class="coders-img img-fluid" src="assets/img/dev1.jpeg" alt="Dev1">
+                                </div>
+                                <div>
+                                    <span class="contact-name">Chris Evans&nbsp;&nbsp;</span>
+                                    <br><span class="active-tick">&#10004;</span><span class="status">&nbsp;Here we go again...</span>
+                                </div>
+                                <div>
+                                    <span class="status">55 min</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="contacts-tab">
+                        <div>
+                            <i class="fa fa-map-o" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <i class="fa fa-file-o" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <section class="section-chat">
+                    <h3>Cyrus Ivan</h3>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

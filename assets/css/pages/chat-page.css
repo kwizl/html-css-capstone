@@ -1,0 +1,84 @@
+.fa-pencil-square-o {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .chat-page-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0 0;
+  }
+
+  .chat-details {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+
+  .chat-coder-li li {
+    list-style: none;
+    padding: 12px 0 12px 10px;
+    border-bottom: 2px solid rgb(236, 236, 236);
+  }
+
+  .coders-list {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .coders-img {
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .chat-details > :first-child {
+    width: 30%;
+    border-right: 1px solid rgb(236, 236, 236);
+  }
+
+  .coders-list > :nth-child(2) {
+    width: 60%;
+  }
+
+  .coders-list > :first-child {
+    width: 20%;
+  }
+
+  .coders-list > :last-child {
+    width: 20%;
+  }
+
+  .contacts-tab {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contacts-tab > div {
+    width: 33%;
+    text-align: center;
+  }
+
+  .contacts-tab > :nth-child(2) {
+    border-top: 2px solid rgb(84, 3, 151);
+    border-left: 2px solid rgb(236, 236, 236);
+    border-right: 2px solid rgb(236, 236, 236);
+    background-color: rgb(245, 245, 245);
+  }
+
+  .section-chat {
+    width: 68%;
+  }
+
+  .coders-list > div {
+    margin-right: 10px;
+  }
+
+  .coders-search {
+    border: none;
+    padding: 10px 8px;
+    width: 75%;
+  }
+}

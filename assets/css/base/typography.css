@@ -163,6 +163,29 @@ header {
   font-size: 12px;
 }
 
+.contact-name {
+  font-weight: 700;
+  color: rgb(70, 70, 70);
+}
+
+.fullstop {
+  color: rgb(1, 139, 1);
+}
+
+.tick {
+  color: rgb(148, 148, 148);
+}
+
+.active-tick {
+  color: rgb(79, 1, 143);
+}
+
+.fa-pencil-square-o {
+  background-color: rgb(79, 1, 143);
+  color: white;
+  font-size: 14px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .logo-site > h3 {
     font-weight: 700;
@@ -238,5 +261,24 @@ header {
     font-weight: 700;
     font-size: 25px;
     color: grey;
+  }
+
+  .chat-page-container {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .chat-details {
+    background-color: white;
+  }
+
+  .coders-search {
+    color: rgb(129, 129, 129);
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .fa-search {
+    color: rgb(194, 194, 194);
+    font-size: 14px;
   }
 }

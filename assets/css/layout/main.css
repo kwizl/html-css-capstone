@@ -13,7 +13,6 @@
   height: inherit;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding-left: 20px;
   margin-right: 20px;
 }
@@ -23,6 +22,10 @@
   background-color: white;
   border-radius: 5px;
   box-shadow: 4px 4px 4px rgb(226, 226, 226);
+}
+
+.features > :nth-child(2) {
+  margin-top: 20px;
 }
 
 .fl {
