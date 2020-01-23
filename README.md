@@ -7,7 +7,7 @@ The project is based on social network to find acquittances. Its a platform on w
 # Code Zone
 Design idea by Vlad Ermakov on Dribbble
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](assets/img/screenshot/screenshot.png)
 
 Project: Building with Responsive Design
 
@@ -18,7 +18,7 @@ Project: Building with Responsive Design
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/kwizl/html-css-capstone/development/index.html)
 
 ## Getting Started
 
