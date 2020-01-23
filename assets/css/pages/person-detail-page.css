@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) and (max-width: 1024px) {
+@media only screen and (min-width: 50px) and (max-width: 1024px) {
   .user-feature-photo {
     display: flex;
     justify-content: space-evenly;
@@ -88,5 +88,12 @@
 
   .user-details-li li {
     list-style: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .main-user-details,
+  .user-details-container {
+    display: none;
   }
 }

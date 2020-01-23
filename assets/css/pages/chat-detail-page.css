@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) and (max-width: 1024px) {
+@media only screen and (min-width: 50px) and (max-width: 1024px) {
   .chat-right {
     display: flex;
     justify-content: flex-end;
