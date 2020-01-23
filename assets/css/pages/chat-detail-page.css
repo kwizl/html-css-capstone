@@ -7,11 +7,6 @@
   .chat-left {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
-  }
-
-  .chat-text-container {
-    width: 60%;
   }
 
   .chat-text {
@@ -20,11 +15,7 @@
   }
 
   .chat-img {
-    width: 10%;
-  }
-
-  .chat-left > .chat-img {
-    margin-right: 20px !important;
+    width: 20%;
   }
 
   .chat-img > img {
@@ -32,21 +23,16 @@
     width: 40px;
     border-radius: 50%;
     margin-top: -13px;
-    margin-left: 15px;
   }
 
   .chat-text-container-right {
     text-align: right;
-    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .chat-text-container-left {
     text-align: left;
     margin-left: 15px;
-  }
-
-  #chat-area-detail {
-    padding-right: 7%;
   }
 
   #input-area-detail {
