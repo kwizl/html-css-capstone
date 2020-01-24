@@ -18,8 +18,8 @@ Project: Building with Responsive Design
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kwizl/html-css-capstone/development/index.html)
-[Video Demo Link](https://www.loom.com/share/7ea0de1d80c0422686102d12927d4797)
+- [Live Demo Link](https://raw.githack.com/kwizl/html-css-capstone/development/index.html)
+- [Video Demo Link](https://www.loom.com/share/7ea0de1d80c0422686102d12927d4797)
 
 ## Getting Started
 
