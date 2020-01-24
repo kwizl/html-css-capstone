@@ -14,6 +14,20 @@
     background-size: cover;
   }
 
+  .previous-user-details-container {
+    background-image: url("../../img/dev7.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .next-user-details-container {
+    background-image: url("../../img/dev5.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .user-details-img {
     display: flex;
     justify-content: space-between;
@@ -93,7 +107,9 @@
 
 @media only screen and (min-width: 1025px) {
   .main-user-details,
-  .user-details-container {
+  .user-details-container,
+  .previous-user-details-container,
+  .next-user-details-container {
     display: none;
   }
 }

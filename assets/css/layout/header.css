@@ -62,7 +62,9 @@
     flex-grow: 1;
   }
 
-  .user-details-container {
+  .user-details-container,
+  .next-user-details-container,
+  .previous-user-details-container {
     height: 300px;
     border-radius: 10px;
   }
