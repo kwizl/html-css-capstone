@@ -1,5 +1,3 @@
-# html-css-capstone
-
 # HTML and CSS Capstone Microverse Project
 
 The project is based on a social network to find acquittances. It's a platform on which programmers share the technologies that they use in their work and the projects that they have done.
