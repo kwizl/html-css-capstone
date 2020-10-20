@@ -2,7 +2,7 @@
 
 # HTML and CSS Capstone Microverse Project
 
-The project is based on social network to find acquittances. Its a platform on which programmers share the technologies that they use in their work and the projects they are engaged in.
+The project is based on a social network to find acquittances. It's a platform on which programmers share the technologies that they use in their work and the projects that they have done.
 
 # Code Zone
 Design idea by Vlad Ermakov on Dribbble
@@ -35,8 +35,5 @@ Project: Building with Responsive Design
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
-## Show your support
-
-Give a ⭐️ if you like this project!
